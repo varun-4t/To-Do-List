@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
-
 html {
     font-size: 62.5%;
 }
@@ -11,7 +9,7 @@ body {
 }
 
 .one {
-    font-family: 'Handlee', cursive;
+    font-family: 'Handlee', cursive, 'fallback-font', sans-serif;
     font-size: 5.5rem;
     font-weight: bold;
     margin: 0px;
@@ -39,7 +37,7 @@ main {
     font-weight: bold;
     height: 20vh;
     z-index: 1;
-    position:fixed;
+    position: fixed;
     font-size: 1.6rem;
     top: 10rem;
     max-width: 110%;
@@ -87,101 +85,120 @@ input:focus {
     top: 15rem;
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     flex-wrap: wrap;
-   color:white; 
-   background-color: rgb(66, 66, 66);
-   font-size:15px;
-   padding:2px 5px;
-   position: relative;
-   top:300px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    font-size: 15px;
+    padding: 2px 5px;
+    position: relative;
+    top: 300px;
 }
 
-.links{
-position: relative;
-left:1140px;
+.links {
+    position: relative;
+    left: 1140px;
 }
 
-.links a{
-    color:white;
+.links a {
+    color: white;
     margin: 0px 6px;
 }
-@media(max-width:1318px){
-    footer{
-        top:320px;
+
+@media(max-width:1318px) {
+    footer {
+        top: 320px;
     }
-    .links{
-        left:1050px;
-    }
-}
-@media(max-width:1230px){
-    footer{
-        top:320px;
-    }
-    .links{
-        left:900px;
+
+    .links {
+        left: 1050px;
     }
 }
-@media(max-width:1078px){
-    footer{
-        top:320px;
+
+@media(max-width:1230px) {
+    footer {
+        top: 320px;
     }
-    .links{
-        left:800px;
-    }
-}
-@media(max-width:980px){
-    footer{
-        top:320px;
-    }
-    .links{
-        left:700px;
+
+    .links {
+        left: 900px;
     }
 }
-@media(max-width:882px){
-    footer{
-        top:320px;
+
+@media(max-width:1078px) {
+    footer {
+        top: 320px;
     }
-    .links{
-        left:590px;
-    }
-}
-@media(max-width:772px){
-    footer{
-        top:320px;
-    }
-    .links{
-        left:490px;
+
+    .links {
+        left: 800px;
     }
 }
-@media(max-width:672px){
-    footer{
-        top:320px;
+
+@media(max-width:980px) {
+    footer {
+        top: 320px;
     }
-    .links{
-        left:390px;
-    }
-}
-@media(max-width:573px){
-    footer{
-        top:322px;
-    }
-    .links{
-        left:290px;
+
+    .links {
+        left: 700px;
     }
 }
-@media(max-width:473px){
-    
-    footer{
-        top:322px;
+
+@media(max-width:882px) {
+    footer {
+        top: 320px;
     }
-    .links{
-        left:190px;
+
+    .links {
+        left: 590px;
     }
 }
+
+@media(max-width:772px) {
+    footer {
+        top: 320px;
+    }
+
+    .links {
+        left: 490px;
+    }
+}
+
+@media(max-width:672px) {
+    footer {
+        top: 320px;
+    }
+
+    .links {
+        left: 390px;
+    }
+}
+
+@media(max-width:573px) {
+    footer {
+        top: 322px;
+    }
+
+    .links {
+        left: 290px;
+    }
+}
+
+@media(max-width:473px) {
+
+    footer {
+        top: 322px;
+    }
+
+    .links {
+        left: 190px;
+    }
+}
+
 @media (max-width:458px) {
-    
+
     html {
         font-size: 55%;
     }
@@ -193,20 +210,24 @@ left:1140px;
         font-size: 48%;
     }
 }
-@media(max-width:372px){
-    footer{
-        top:322px;
+
+@media(max-width:372px) {
+    footer {
+        top: 322px;
     }
-    .links{
-        left:130px;
+
+    .links {
+        left: 130px;
     }
 }
-@media(max-width:310px){
-    footer{
-        top:322px;
+
+@media(max-width:310px) {
+    footer {
+        top: 322px;
     }
-    .links{
-        left:80px;
+
+    .links {
+        left: 80px;
     }
 }
 
@@ -214,16 +235,19 @@ left:1140px;
     html {
         font-size: 30%;
     }
+
     .op {
         top: 30rem;
     }
 }
-@media(max-width:263px){
-    footer{
-        top:322px;
+
+@media(max-width:263px) {
+    footer {
+        top: 322px;
     }
-    .links{
-        left:40px;
+
+    .links {
+        left: 40px;
     }
 }
 
@@ -236,29 +260,35 @@ left:1140px;
         top: 40rem;
     }
 }
-@media(max-width:220px){
-    .content{
-        top:15rem;
+
+@media(max-width:220px) {
+    .content {
+        top: 15rem;
     }
-    footer{
-        top:322px;
+
+    footer {
+        top: 322px;
         font-size: 13px;
     }
-    .links{
-        left:30px;
+
+    .links {
+        left: 30px;
     }
 }
-@media(max-width:192px){
-    footer{
-        top:322px;
+
+@media(max-width:192px) {
+    footer {
+        top: 322px;
         font-size: 10px;
     }
-    .links{
-            left:20px;
+
+    .links {
+        left: 20px;
     }
 }
-@media(max-width:170px){
-    .content{
-        top:18rem;
+
+@media(max-width:170px) {
+    .content {
+        top: 18rem;
     }
 }
