@@ -221,6 +221,16 @@ footer {
     }
 }
 
+@media (max-width:334px) {
+    html {
+        font-size: 40%;
+    }
+
+    .op {
+        top: 30rem;
+    }
+}
+
 @media(max-width:310px) {
     footer {
         top: 322px;
