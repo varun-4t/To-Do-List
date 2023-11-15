@@ -39,10 +39,8 @@ main {
     font-weight: bold;
     height: 20vh;
     z-index: 1;
-    /* border: 1px solid yellow; */
-    position: fixed;
+    position:fixed;
     font-size: 1.6rem;
-    /* right: 53.10rem; */
     top: 10rem;
     max-width: 110%;
 }
@@ -239,6 +237,9 @@ left:1140px;
     }
 }
 @media(max-width:220px){
+    .content{
+        top:15rem;
+    }
     footer{
         top:322px;
         font-size: 13px;
@@ -253,6 +254,11 @@ left:1140px;
         font-size: 10px;
     }
     .links{
-        left:20px;
+            left:20px;
+    }
+}
+@media(max-width:170px){
+    .content{
+        top:18rem;
     }
 }
