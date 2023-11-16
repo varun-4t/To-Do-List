@@ -30,16 +30,17 @@ main {
 }
 
 .content {
-    padding: 5px;
+    padding: 10px;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    height: 20vh;
+    height: 10vh;
     z-index: 1;
     position: fixed;
     font-size: 1.6rem;
-    top: 10rem;
+    top: 14rem;
     max-width: 110%;
 }
 
@@ -260,6 +261,11 @@ footer {
         left: 40px;
     }
 }
+@media (max-width:259px) {
+    .content{
+        top:16rem;
+    }
+}
 
 @media (max-width:240px) {
     html {
@@ -273,7 +279,7 @@ footer {
 
 @media(max-width:220px) {
     .content {
-        top: 15rem;
+        top: 18rem;
     }
 
     footer {
@@ -297,8 +303,8 @@ footer {
     }
 }
 
-@media(max-width:170px) {
+@media(max-width:190px) {
     .content {
-        top: 18rem;
+        top: 25rem;
     }
 }
